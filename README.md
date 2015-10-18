@@ -1,6 +1,7 @@
-# CodeboyBlog
+# Kingback Blog
 
-[king1](http://kingback1.github.io/)的网站模板
+网站模板来自[小胖轩](http://codeboy.me/)，正在慢慢更新修改。
+
 
 ## 需要配置的内容:
 1. 修改_config.xml中的信息。

@@ -7,7 +7,7 @@ host: "127.0.0.1"
 baseurl: ""
 url: "http://kingback1.github.io/"
 github_username:  kingback1
-zhihu_username: wang-hui-82-91
+#zhihu_username: wang-hui-82-91
 
 # Build settings
 markdown: kramdown 

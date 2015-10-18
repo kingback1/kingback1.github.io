@@ -1,13 +1,13 @@
 # Site settings
-title: 小胖轩 
-header-img: img/home-bg.jpg
-email: app@codeboy.me
-description: "编码生涯的点点滴滴"
+title: kingback
+header-img: img/home.jpg
+email: aoogcoho@hust.edu.cn
+description: "活泼开朗，帅气阳光"
 host: "127.0.0.1"
 baseurl: ""
-url: "http://codeboy.me"
-github_username:  androiddevelop
-zhihu_username: li-yue-dong
+url: "http://kingback1.github.io/"
+github_username:  kingback1
+zhihu_username: wang-hui-82-91
 
 # Build settings
 markdown: kramdown 

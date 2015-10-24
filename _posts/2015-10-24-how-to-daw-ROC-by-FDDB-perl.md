@@ -24,11 +24,9 @@ author: 'Kingback'
     ...
     <face im>
 
-<face im>的表达形式有一下两种：
-    - Rectangular regions
-    Each face region is represented as:<left_x top_y width height detection_score>
-    - Elliptical regions
-    Each face region is represented as: <major_axis_radius minor_axis_radius angle center_x center_y detection_score>
+'<face im>'的表达形式有一下两种：
+- Rectangular regions。Each face region is represented as:'<left_x top_y width height detection_score>'
+- Elliptical regions。Each face region is represented as: '<major_axis_radius minor_axis_radius angle center_x center_y detection_score>'
 这里的detection_score是我们自己算法得出的是人脸的分数。
 
 ## linux下编译生成FDDB 评估脚本
@@ -57,7 +55,8 @@ author: 'Kingback'
 执行脚本./runEvaluate.pl，出现的Could not find/open font when opening font "arial", using internal non-scalable font，字体warning可以忽略
 可以看到$detDir生成了ContROC.png，ContROC.txt，DiscROC.png，DiscROC.txt。我生成的DiscROC.png如下，有点没明白就是横坐标只有80，难道是我算法对误检处理的太好了？
 ![img](/img/DiscROC.png)
-# 生成和其他检脸算法的compare_ROC曲线
+
+## 生成和其他检脸算法的compare_ROC曲线
 下载compareROC.tar.gz。将4生成的ContROC.txt， DiscROC.txt拷贝在rocCurves下。对应修改contROC.p和discROC.p路径和title。分别运行contROC.p， discROC.p(gnuplot contROC.p)， 就会看到有contROC-compare.png和discROC-compare.png两个图片，就是compare_ROC曲线图。
 ![img](/img/discROC-compare.png)
 ###参考资料

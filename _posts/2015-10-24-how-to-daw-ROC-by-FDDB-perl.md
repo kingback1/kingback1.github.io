@@ -4,7 +4,8 @@ title: 'how to daw ROC by FDDB perl'
 date: '2015-10-24'
 header-img: "img/home.jpg"
 tags:
-     - 生活笔记
+     - 计算机视觉
+     - 人脸检测
 author: 'Kingback'
 ---
 

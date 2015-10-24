@@ -25,6 +25,7 @@ author: 'Kingback'
     <face im>
 
 `<face im>`的表达形式有一下两种：
+
 - Rectangular regions. Each face region is represented as:`<left_x top_y width height detection_score>`
 - Elliptical regions. Each face region is represented as: `<major_axis_radius minor_axis_radius angle center_x center_y detection_score>`
 这里的detection_score是我们自己算法得出的是人脸的分数。
@@ -43,7 +44,6 @@ author: 'Kingback'
          $(CC) $(OBJS) -o $@ $(LIBS)
 
 就会生成evaluate和runEvaluate.pl两个脚本。修改runEvaluate.pl：
-
 - $GNUPLOT gnuplot路径
 - $evaluateBin 编译生成的evaluate可执行文件
 - $imDir  FDDB数据库图片文件目录

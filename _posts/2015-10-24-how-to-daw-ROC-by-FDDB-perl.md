@@ -44,6 +44,7 @@ author: 'Kingback'
          $(CC) $(OBJS) -o $@ $(LIBS)
 
 就会生成evaluate和runEvaluate.pl两个脚本。修改runEvaluate.pl：
+
 - $GNUPLOT gnuplot路径
 - $evaluateBin 编译生成的evaluate可执行文件
 - $imDir  FDDB数据库图片文件目录

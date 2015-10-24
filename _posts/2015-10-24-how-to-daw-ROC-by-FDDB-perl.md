@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 'hello world'
-date: '2015-10-18'
-header-img: "img/home-bg.jpg"
+title: 'how to daw ROC by FDDB perl'
+date: '2015-10-24'
+header-img: "img/home.jpg"
 tags:
      - 生活笔记
 author: 'Kingback'

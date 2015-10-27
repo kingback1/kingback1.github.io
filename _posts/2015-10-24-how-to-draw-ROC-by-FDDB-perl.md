@@ -55,11 +55,11 @@ author: 'Kingback'
 
 ## 4.生成ROC曲线
 执行脚本./runEvaluate.pl，出现的Could not find/open font when opening font "arial", using internal non-scalable font，字体warning可以忽略。
-可以看到$detDir生成了ContROC.png，ContROC.txt，DiscROC.png，DiscROC.txt。我生成的DiscROC.png如下。
+可以看到$detDir生成了ContROC.png，ContROC.txt，DiscROC.png，DiscROC.txt。我们自己算法生成的DiscROC.png如下。
 ![img](/img/2015/10/DiscROC-2.png)
 
 ## 5.生成和其他检脸算法的compare_ROC曲线
-下载compareROC.tar.gz。将4生成的ContROC.txt， DiscROC.txt拷贝在rocCurves下。对应修改contROC.p和discROC.p路径和title。分别运行contROC.p， discROC.p(gnuplot contROC.p)， 就会看到有contROC-compare.png和discROC-compare.png两个图片，就是compare_ROC曲线图。
+下载compareROC.tar.gz。将4生成的ContROC.txt， DiscROC.txt拷贝在rocCurves下。对应修改contROC.p和discROC.p路径和title。分别运行contROC.p， discROC.p(gnuplot contROC.p)， 就会看到有contROC-compare.png和discROC-compare.png两个图片，就是compare_ROC曲线图。下图中红色的曲线代表我们的算法。
 ![img](/img/2015/10/discROC-compare-2.png)
 
 ### 参考资料

@@ -9,7 +9,7 @@ tags:
 author: 'Kingback'
 ---
 
-做人脸检测算法方面的研究和实现，当然得有一个工具来评估算法在标准的人脸库上的性能，[FDDB](http://vis-www.cs.umass.edu/fddb/)(Face Detection Data Set and Benchmark)就是这样的人脸检测标准库。Face++就在2014年在这个库上夺得了[桂冠](http://www.faceplusplus.com.cn/fddb/)。人脸检测性能很重要的曲线就是ROC曲线，来表示算法在人脸库上的误检数和召回率。下面就来讲讲如何利用FDDB官网的脚本生成自己算法的ROC曲线，并和其他算法compare的ROC曲线。
+做人脸检测算法方面的研究和实现，当然得有一个工具来评估算法在标准的人脸库上的性能，[FDDB](http://vis-www.cs.umass.edu/fddb/)(Face Detection Data Set and Benchmark)就是这样的人脸检测标准库。Face++就在2014年在这个库上夺得了[桂冠](http://www.faceplusplus.com.cn/fddb/)。人脸检测性能很重要的曲线就是ROC曲线，来表示算法在人脸库上的误检数和召回率。下面就来讲讲如何利用FDDB官网的脚本生成自己算法的ROC曲线，并和其他算法compare的ROC曲线。关于ROC曲线的介绍，可以参照这篇[博文](http://alexkong.net/2013/06/introduction-to-auc-and-roc/)。
 
 
 ## 1.在FDDB官网下载图片和标注文件

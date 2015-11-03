@@ -11,7 +11,7 @@ author: 'Kingback'
 记录下装双系统的过程和遇到的问题。
 
 ## 下载Ubuntu镜像
-在Ubuntu[官网](http://www.ubuntu.org.cn/download)或者学校hust的[镜像](mirror.hust.edu.cn)上下载对应机器的镜像，本人选择的是Ubuntu-14.04.3-desktop-amd64.iso。
+在Ubuntu[官网](http://www.ubuntu.org.cn/download)或者学校hust的[镜像](http://mirror.hust.edu.cn/)上下载对应机器的镜像，本人选择的是Ubuntu-14.04.3-desktop-amd64.iso。
 
 ## 制作U盘启动
 制作U盘启动的方式有很多，本人总结有如下三种：

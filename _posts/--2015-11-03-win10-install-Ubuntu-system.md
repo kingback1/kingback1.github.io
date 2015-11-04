@@ -1,4 +1,4 @@
-<!-- ---
+---
 layout: post
 title: 'win10 + Ubuntu14.04 双系统'
 date: '2015-11-03'
@@ -6,7 +6,7 @@ header-img: "img/home.jpg"
 tags:
      - Linux
 author: 'Kingback'
---- -->
+---
 
 记录下装双系统的过程和遇到的问题。
 

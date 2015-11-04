@@ -73,7 +73,7 @@ author: 'Kingback'
 ## 遇到的问题
 
 - 问题一：发现并没有选择进入Ubuntu的启动项,而是直接进入到了Win10系统
-安装easyBCD后打开,点击Add New Entry选择Linux/BSD,Type选择GRUB,Name自己随便写,笔者写的是Ubuntu作为标识,Drive:选取我们设置的/boot分区,有Linux标记,设置完成后点击Add Entry即可
+安装easyBCD后打开,点击Add New Entry选择Linux/BSD，Type选择GRUB；Name自定义，本人写的是Ubuntu作为标识；Drive：选取我们设置的/boot分区，有Linux标记，设置完成后点击Add Entry即可。
 
 - 问题二：自带IBus拼音输入法有问题，单个字母按键变成了后鼻韵母，不能正确输入汉字
 选择拼音的首选项->拼音模式->勾上简拼，重启系统

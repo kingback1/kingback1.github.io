@@ -21,7 +21,7 @@ void *kingmemcpy(void *dst, void *src, int n)
     char *pdst = (char*)dst;
     char *psrc = (char*)src;
 
-    //没有内存重叠
+    //没有内存重叠，从低地址开始复制
     if (pdst <= psrc || pdst > psrc + n)
     {
         while (n)
@@ -34,6 +34,7 @@ void *kingmemcpy(void *dst, void *src, int n)
     }
     else
     {
+        //有内存重叠，从高地址开始复制，即从末尾开始复制
         pdst = pdst + n - 1;
         psrc = psrc + n - 1;
 

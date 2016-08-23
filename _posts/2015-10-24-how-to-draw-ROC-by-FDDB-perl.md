@@ -62,6 +62,10 @@ author: 'Kingback'
 下载compareROC.tar.gz。将4生成的ContROC.txt， DiscROC.txt拷贝在rocCurves下。对应修改contROC.p和discROC.p路径和title。分别运行contROC.p， discROC.p(gnuplot contROC.p)， 就会看到有contROC-compare.png和discROC-compare.png两个图片，就是compare_ROC曲线图。下图中红色的曲线代表我们的算法。
 ![img](/img/2015/10/discROC-compare-2.png)
 
+## 6.更新
+画ROC其实不用这么复杂，用python scikit-learn 库就可以轻松画图，还可以统计AUC。
+
 ### 参考资料
 [官方说明](http://vis-www.cs.umass.edu/fddb/fddb.pdf)
 [博客](http://blog.csdn.net/phoenix_zhou/article/details/47399819)
+[sklearn.metrics.roc_curve](http://scikit-learn.org/stable/modules/generated/sklearn.metrics.roc_curve.html)

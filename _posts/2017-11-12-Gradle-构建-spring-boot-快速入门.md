@@ -42,7 +42,7 @@ author: 'Kingback'
 - `gradlew eclipse` 命令，将生产eclipse工程
 
 ## 编写微服务
-在eclipse中导入工程，在入口类下创建一个Controller和一个业务类HelloWorld
+在入口类下创建一个Controller和一个业务类HelloWorld
 HelloController:
 
 ```
@@ -77,8 +77,3 @@ public class HelloWorld {
 ```
 
 工程运行，在浏览器中输入`localhost:8080/helloworld`就可以看到`hello world i love u`了。
-
-### 参考资料
-[博客1](https://www.cnblogs.com/davenkin/p/gradle-spring-boot.html)
-
-[博客2](http://www.jianshu.com/p/d24bceea7665)
